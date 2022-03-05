@@ -80,11 +80,11 @@ Plug 'preservim/nerdtree'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-
 "Plug 'dense-analysis/ale'
 
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 
@@ -215,8 +215,7 @@ let g:coc_global_extensions = [
       \ 'coc-vimlsp',
       \ 'coc-cmake',
       \ 'coc-highlight',
-      \ 'coc-pyright',
-      \ 'coc-pairs'
+      \ 'coc-pyright'
       \ ]
 
 set signcolumn=number
